@@ -1,4 +1,4 @@
-FROM node
+FROM node:lts-alpine
 
 WORKDIR /app
 
@@ -8,4 +8,4 @@ RUN yarn install
 
 COPY . .
 
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
