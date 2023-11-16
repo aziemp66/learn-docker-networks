@@ -68,7 +68,7 @@ app.get("/people", async (req, res) => {
 });
 
 mongoose.connect(
-	"mongodb://localhost:27017/swfavorites",
+	"mongodb://mongodb:27017/swfavorites",
 	// "mongodb+srv://aziemp66:azie122333@cluster0.4bmznok.mongodb.net/?retryWrites=true&w=majority",
 	{
 		useNewUrlParser: true,
